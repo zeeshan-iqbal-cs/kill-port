@@ -1,0 +1,29 @@
+{
+  "name": "kill-by-port",
+  "version": "0.0.1",
+  "description": "Some time we require the previous system to be killed and restart the new system. This repository will come handy in this regard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshan-iqbal-cs/node-kill-by-port.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "kill",
+    "port"
+  ],
+  "author": "zeeshan-iqbal-cs, zeeshan.iqbal.cs@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeeshan-iqbal-cs/node-kill-by-port/issues"
+  },
+  "homepage": "https://github.com/zeeshan-iqbal-cs/node-kill-by-port#readme",
+  "dependencies": {
+    "port-pid": "0.0.7",
+    "ps-node": "^0.1.6"
+  }
+}
